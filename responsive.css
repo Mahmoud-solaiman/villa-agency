@@ -1,0 +1,197 @@
+@media (max-width:1000px) {
+    .footer-reversed {
+        display:none;
+    }
+    header {
+        padding:0 50px;
+        
+    }
+    .nav-list {
+        padding:0;
+    }
+    .nav-list li {
+        padding:40px 10px;
+    }
+    .nav-list li a {
+        font-size:.9rem;
+    }
+    .appartment-view {
+        flex-direction: column;
+        padding-right:20px;
+        padding-left:20px;
+        align-items:center;
+        gap:70px;
+    }
+    .featured-img-container {
+        width:85%;
+        align-self: flex-end;
+    }
+    .featured-img-container a {
+        bottom:-50px;
+    }
+    .villa-properties, .best-property-info,.property-featured,.buttons-info {
+        width:100%;
+    }
+    .stats {
+        flex-direction: column;
+        align-items: center;
+        gap:40px;
+    }
+    .deals-header {
+        flex-direction: column;
+        align-items:center;
+        gap:50px;
+    }
+    .property-description {
+        display:flex;
+        flex-direction: column;
+    }
+    .gallery-cards-container {
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
+    .contact-info-container, .mail-phone-container {
+        display:flex;
+        flex-direction: column;
+    }
+    .mail-phone-container {
+        gap:20px;
+    }
+    
+}
+
+@media (min-width:990px) and (max-width:1150px){
+    header {
+        padding:0 20px;
+    }
+    
+    .nav-list li {
+        padding:40px 20px;
+    }
+
+    .footer-reversed {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:770px) {
+    header {
+        height:85px;
+    }
+    .calendar {
+        display: none;
+    }
+    .deals-calendar {
+        margin-top:10px;
+        display:block;
+    }
+    .hamburger-menu {
+        display:flex;
+    }
+    .nav-list {
+        padding:0;
+        flex-direction:column;
+        align-items:center;
+        position:absolute;
+        top:85px;
+        left:5%;
+        z-index: 999;
+        background-color:#fff;
+        width:90%;
+        max-height:0;
+        transition:max-height .4s linear;
+        overflow:hidden;
+    }
+    
+    .hide {
+        max-height:500px;
+    }
+
+    .curved {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow:0 5px 15px #a1a1a1;
+    }
+
+    .nav-list li {
+        padding:15px 0;
+        width:100%;
+        text-align:center;
+        border-top:1px solid #ebebeb;
+    }
+    .nav-list li a {
+        font-weight: 600;
+    }
+    .nav-container {
+        width:100%;
+        background-color: #000;
+    }
+    .short-intro {
+        font-size:3rem;
+    }
+    .video {
+        padding:100px 80px 10px;
+    }
+    .heading h2 {
+        width:100%;
+    }
+    .video-content {
+        height:220px;
+        width:100%;
+    }
+    .gallery-cards-container {
+        display:flex;
+        flex-direction:column;
+    }
+    .gallery-title h2 {
+        width:100%;
+    }
+}
+
+@media (max-width:570px){
+    .video {
+        padding:100px 10px 10px;
+    }
+    .deals {
+        padding:100px 20px;
+    }
+    .deals-btns-container .deals-btn {
+        padding:.8em 1.1em;
+        font-size:1rem;
+        margin-right:0;
+    }
+    .property-gallery {
+        padding:100px 20px;
+    }
+    .gallery-title h2 {
+        width:100%;
+    }
+    .contact-us {
+        padding:100px 10px 0;
+    }
+    footer {
+        padding:45px 20px;
+        text-align:center;
+        line-height:30px;
+    }
+}
+
+@media (max-width:1130px) and (min-width:1000px) {
+    .appartment-view {
+        padding:200px 50px 100px;
+    } 
+    .property-featured {
+        width:250px;
+    }
+    .featured-img-container a {
+        bottom:190px;
+    }
+}
+
+@media (max-width:830px) {
+    footer {
+        padding:45px 30px;
+        text-align:center;
+        line-height:30px;
+    }
+}
